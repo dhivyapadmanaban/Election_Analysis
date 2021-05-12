@@ -57,11 +57,9 @@ The election commision has requested following additional information to complet
 ## Challenge Summary
 While this deliverable is for the Colorado Board of Elections, We can reuse the same script with some modifications for any election commission.
 1. Input file name is hardcoded in the script. In case of different file name from new Election commission the same script need to be mofied @ line 9 with new file name.
-  - file_to_load = os.path.join( "Resources", **"<<new file name>>"**)
+  - file_to_load = os.path.join( "Resources", **NEWFILENAME**)
 2. Also if the new csv file structure is different with header like - << County , Candidate name , Ballot ID >>, we can modify the same script by changing dictionary values in the script. Few sample from the code below:
-   - candidate_name = row[<rowid>]
-   - county_name = row[<rowid>]
+   - candidate_name = row[**ROWINDEX**]
+   - county_name = row[**ROWINDEX**]
 
-
-  -  
 
