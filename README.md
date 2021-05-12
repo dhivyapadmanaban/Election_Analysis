@@ -51,7 +51,17 @@ The election commision has requested following additional information to complet
   - -----> Winning Vote Count: 272,892 <--------
   - -----> Winning Percentage: 73.8% <----------
 
+![image](https://user-images.githubusercontent.com/83181834/118048284-e82d0a00-b330-11eb-8d39-51d3d4a787f5.png)
 
 
 ## Challenge Summary
+While this deliverable is for the Colorado Board of Elections, We can reuse the same script with some modifications for any election commission.
+1. Input file name is hardcoded in the script. In case of different file name from new Election commission the same script need to be mofied @ line 9 with new file name.
+  - file_to_load = os.path.join( "Resources", **"<<new file name>>"**)
+2. Also if the new csv file structure is different with header like - << County , Candidate name , Ballot ID >>, we can modify the same script by changing dictionary values in the script. Few sample from the code below:
+   - candidate_name = row[<rowid>]
+   - county_name = row[<rowid>]
+
+
+  -  
 
