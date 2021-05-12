@@ -29,5 +29,29 @@ The analysis of the election show that:
   
   
 ## Challenge Overview
+The election commision has requested following additional information to complete the audit.
+
+1. The voter turnout for each county.
+2. The percentage of votes from each county out of the total count.
+3. The county with the highest turnout.
+
+### Election Audit results
+- Total number of votes cast in this election is 369,711.
+- Break down of votes by county:
+  - Jefferson county registered 38,855 votes which is 10.5%
+  - Denver county registered 306,055 votes which is 82.8%
+  - Arapahoe county registered 24,801 votes which is 6.7%
+- Out of these counties, Denver registered most number of votes.
+- Break down of votes by candidates:  
+  - Charles Casper Stockham got 23.0% of votes - 85,213 votes
+  - Diana DeGette got 73.8% of votes - 272,892 votes
+  - Raymon Anthony Doane got 3.1% of votes - 11,606 votes
+- Find result of election:
+  - -----> Winner: Diana DeGette <----------
+  - -----> Winning Vote Count: 272,892 <--------
+  - -----> Winning Percentage: 73.8% <----------
+
+
 
 ## Challenge Summary
+
