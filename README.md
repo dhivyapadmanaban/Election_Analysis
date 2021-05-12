@@ -61,5 +61,8 @@ While this deliverable is for the Colorado Board of Elections, We can reuse the 
 2. Also if the new csv file structure is different with header like - << County , Candidate name , Ballot ID >>, we can modify the same script by changing dictionary values in the script. Few sample from the code below:
    - candidate_name = row[**ROWINDEX**]
    - county_name = row[**ROWINDEX**]
+3. This script analyze the election data provide results on Candiate and County . However if the new election results file has additional columns - Form of voting (mail in ballot , voting machine ), date of election etc. we can add new functionality and reuse similar calculation performed on Candidate and county results. 
+4. It is easy to re use the same code on election analysis history file to find Turn out rate in every election year. We can run the same calculation based on year to find voter Turn out for every election .
+
 
 
